@@ -14,4 +14,5 @@ TC1
     Log    ${marks}
     ${result}    Set Variable If    ${marks}>33    "pass"    "fail"
     Log    ${result}
+    Log    ${result}
 
